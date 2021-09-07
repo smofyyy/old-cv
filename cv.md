@@ -12,8 +12,8 @@
 
 ## IT skills
 * **Basic Python** 
-* **Basic HTML** 
-* **Basic CSS** 
+* **Basic HTML5** 
+* **Basic CSS3** 
 * **Basic JS** 
 * **Basic Git** 
 
