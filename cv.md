@@ -52,5 +52,5 @@ print(t)
 4. [HTML&CSS vol.1](https://htmlacademy.ru/)
 5. [HTML&CSS vol.2](https://stepik.org/course/38218)
 
-## English - A1+(getting better every day)
+## English - A1
 
