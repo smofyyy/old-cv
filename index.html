@@ -4,8 +4,7 @@
 <head>
 	<link rel="stylesheet" href="./style/style.css">
 	<meta charset="UTF-8">
-	<meta name="viewport"
-		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,13 +20,12 @@
 			</div>
 			<div class="header-description">
 				<section class="header-description-article">
-					<article class="header-description-section-1">
 						<h1>Nikita Kara</h1>
-					</article>
 					<article class="header-description-section-2">
 						<h2>Junior Front-End developer</h2>
 					</article>
 					<article class="header-description-section-3">
+						<h3>About me:</h3>
 						<p>
 							I am a student of a technical University, studying to be a programmer. I don’t really like
 							the program of study at my University, so I try to teach and study what I like and what I
@@ -46,10 +44,10 @@
 		</header>
 		<main class="content-main">
 			<section class="main-block">
+				<div class="main-box-description">
+					<h3>Education</h3>
+				</div>
 				<article class="first-main-box">
-					<div class="main-box-description">
-						<h3>Education</h3>
-					</div>
 					<div class="education-obj">
 						<h4 class="education-description">HTML&CSS:</h4>
 						<ul class="education-info">
@@ -86,7 +84,7 @@
 							</li>
 							<li class="education-item">
 								<a href="https://learn.javascript.ru/" target="_blank">
-									<img class="contact-image-4" src="./img/learnjs.png" alt="learnjs" target="_blank">
+									<img class="contact-image-4" src="./img/learnjs.png" alt="learnjs">
 								</a>
 								<a href="https://learn.javascript.ru/" target="_blank">
 									<mark>Modern JavaScript book</mark>
@@ -131,10 +129,10 @@
 				</article>
 			</section>
 			<section class="main-block">
+				<div class="main-box-description">
+					<h3>Contact Info</h3>
+				</div>
 				<nav class="second-main-box">
-					<div class="main-box-description">
-						<h3>Contact Info</h3>
-					</div>
 					<ul class="contact-info">
 						<li class="contact-item">
 							<a class="" href="https://t.me/smofyyy" target="_blank">
@@ -202,12 +200,41 @@
 						<li class="skills-item">
 							<h6>Russian (native)</h6>
 						</li>
-						<li>
+						<li class="skills-item">
 							<h6>English (A1+)</h6>
 						</li>
 					</ul>
 				</article>
 			</section>
+			<aside class="last-block">
+				<div class="last-block-description">
+					<h3 class="last-block-description-1">Code example</h3>
+					<h4 class="last-block-description-2">JavaScript task:
+						Unique In Order</h4>
+				</div>
+				<div class="code-example">
+					<pre>
+					<code>
+function uniqueInOrder(word) {
+  let firstArr = [];
+  let secondArr = [];
+
+  for (let i = 0; i &lt; word.length; i++) {
+    if (word[i] !== word[i + 1]) {
+      firstArr = `${firstArr}${word[i]}`
+    }
+  }
+
+  for (let j = 0; j &lt; firstArr.length; j++) {
+  secondArr.push(j + 1);
+  }
+
+  return isNaN(+firstArr) ? firstArr.split('') : secondArr;
+}
+					</code>
+					</pre>
+				</div>
+			</aside>
 		</main>
 		<footer class="content-footer">
 			<div class="footer-box">
