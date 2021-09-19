@@ -234,6 +234,43 @@ pre {
 
 }
 
+
+.project-description {
+    font-size: 34px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.project h4{
+    font-size: 24px;
+    padding-left: 50px;
+}
+
+
+.project p:nth-child(2) {
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.project-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-img {
+    border-radius: 20px;
+    width: 90%;
+    filter: brightness(40%);
+}
+
+.describe {
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+}
+
+
 .content-footer {
     display: flex;
     align-items: center;
@@ -355,6 +392,24 @@ pre {
 
     pre {
         font-size: 12px;
+    }
+
+    .project-description {
+        font-size: 28px;
+
+    }
+
+    .project h4{
+        font-size: 20px;
+    }
+
+
+    .project p:nth-child(2) {
+        font-size: 15px;
+    }
+
+    .project-img {
+        width: 75%;
     }
 }
 
@@ -487,9 +542,34 @@ pre {
         font-size: 7px;
     }
 
+    .project-description {
+        font-size: 24px;
+
+    }
+
+    .project h4{
+        font-size: 18px;
+    }
+
+
+    .project p:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .describe {
+        font-size: 8px;
+    }
+
+    .project-img {
+        width: 65%;
+    }
 }
 
 @media screen and (max-width: 442px) {
+    .header-img-logo {
+        margin-left: 70px;
+    }
+
     .main-block {
         height: 1100px;
     }
@@ -499,6 +579,14 @@ pre {
     }
 
     pre {
-        font-size: 6px;
+        font-size: 5px;
+        padding: 22%;
     }
 }
+
+@media screen and (max-width: 390px) {
+    .header-img-logo {
+        margin-left: 55px;
+    }
+}
+
